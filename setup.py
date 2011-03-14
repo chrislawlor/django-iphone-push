@@ -1,5 +1,12 @@
 from distutils.core import setup
 
+classifiers = """\
+Development Status :: 5 - Production/Stable
+Intended Audience :: Developers
+Framework :: Django
+Programming Language :: Python
+"""
+
 setup(
     name="django-iphone-push",
     version="1.0",
@@ -10,4 +17,5 @@ setup(
     packages=['iphone_push', 'iphone_push.migrations'],
     platforms=["any"],
     license="See LICENSE.txt",
+    classifiers = filter(None, classifiers.split("\n")),
 )
