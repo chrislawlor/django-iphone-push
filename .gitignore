@@ -1,2 +1,6 @@
 *~
 *.pyc
+*.komodoproject
+dist
+MANIFEST
+build
