@@ -14,7 +14,7 @@ setup(
     author="Lee Packham",
     author_email="lpackham@leenux.org.uk",
     url="http://leepa.github.com/django-iphone-push/",
-    packages=['iphone_push', 'iphone_push.migrations'],
+    packages=['iphonepush', 'iphonepush.migrations'],
     platforms=["any"],
     license="See LICENSE.txt",
     classifiers = filter(None, classifiers.split("\n")),

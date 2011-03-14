@@ -1,7 +1,7 @@
 This application at least requires Python 2.5. It does make use of some Python 2.6 features. If you want to use on Python 2.5 you'll need the SSL Socket backport (http://pypi.python.org/pypi/ssl/).
 
 To install, use ``pip install django-iphone-push`` or
-``easy_install django-iphone-push``, then add ``iphone_push`` to INSTALLED_APPS.
+``easy_install django-iphone-push``, then add ``iphonepush`` to INSTALLED_APPS.
 
 I use south (http://south.aeracode.org/) for migrations. You can use them or just syncdb.
 
